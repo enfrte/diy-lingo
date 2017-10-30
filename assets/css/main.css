@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 2rem;
+  min-height: 100%;
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+img {
+  /* flags */
+  max-width: 100%;
+}
+
+.container {
+  margin: 15px auto;
+  max-width: 600px;
+}
+
+h3, h4 { color:#333333; margin: 10px 0; }
+
+blockquote {
+  background: #eee;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.progressbar-container {
+  font-size: small;
+  font-weight: bold;
+  padding: 0;
+  margin-top: 10px;
+  height: 15px;
+  width:100%;
+  background-color:#f1f1f1;
+  clear:right;
+}
+
+.question-progressbar {
+  background-color:	#7CFC00;
+  height:100%;
+  display: inline-block;
+}
+
+#instance {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.text-area {
+  padding:0;
+  min-height:60px;
+  background-color:snow;
+  margin: 10px 0;
+}
+
+#answer_area {
+  background-color:snow;
+  border: 3px solid lightgray;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#stage_area {
+  background-color:lightgray;
+  border: 3px solid lightgray;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+button:focus { outline:0; }
+
+.word-button {
+  color: #1C1C1C !important;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 8px 4px;
+  border: 0px solid;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: none;
+  background: lightgray;
+}
+
+.answer-button {
+  color: white !important;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 0;
+  border: 0px solid;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: none;
+  background: #4CAF50;
+}
+
+footer {
+  position:absolute;
+  padding: 1rem;
+  bottom:0;
+  width:100%;
+  height:60px;
+  text-align: center;
+}
