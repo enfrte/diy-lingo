@@ -3,6 +3,8 @@
 system/
 ignore/
 .vscode/
+.editorconfig
+
 
 application/cache/*
 !application/cache/index.html
