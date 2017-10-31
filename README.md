@@ -2,7 +2,7 @@
 
 DIY Lingo is a platform that allows its users to create language learning courses and course practice tests. I created this prototype to allow me to practice my development skills, and pad up my github repro. The project uses CodeIgniter, JavaScript, VueJS, and MySQL.
 
-### Demo 
+### Click the image to open the demo video 
 
 [![DIY Lingo Demo](https://img.youtube.com/vi/CCkr1h0L8r0/0.jpg)](https://www.youtube.com/watch?v=CCkr1h0L8r0)
 
