@@ -4,7 +4,7 @@ DIY Lingo is a platform that allows its users to create language learning course
 
 ### Demo 
 
-Video coming soon...
+[![DIY Lingo Demo](https://img.youtube.com/vi/CCkr1h0L8r0/0.jpg)](https://www.youtube.com/watch?v=CCkr1h0L8r0)
 
 ### Current third party libraries
 
@@ -12,6 +12,7 @@ Video coming soon...
 * [ParseDown](https://github.com/erusev/parsedown) 
 * [VueJS](https://github.com/vuejs/vue) 
 * [SVG flag icons](https://github.com/lipis/flag-icon-css)
+* [W3CSS](https://www.w3schools.com/w3css/)
 
 ### To do 
 
